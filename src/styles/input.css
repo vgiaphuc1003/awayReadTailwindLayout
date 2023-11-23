@@ -1,0 +1,26 @@
+/* Add Tailwind to CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add Font */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+    --color-black: 35 35 35;
+    --color-neutral: 146 146 146;
+    --color-blue: 6 31 72;
+    --color-gray2: 250 250 250;
+    --color-gray3: 247 247 247;
+
+    /* Name Color */
+    --color-primary: var(--color-black);
+    --color-second: var(--color-neutral);
+    --color-bgcolor: var(--color-gray2);
+    --color-btn: var(--color-gray3);
+    --color-blue: var(--color-blue);
+}
+
+* {
+    font-family: "Manrope", sans-serif;
+}
