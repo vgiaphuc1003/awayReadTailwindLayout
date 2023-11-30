@@ -11,5 +11,8 @@
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.0.0"
   }
 }
